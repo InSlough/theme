@@ -1,0 +1,20 @@
+.post-page pre.wp-block-verse.is-style-pink {
+  background: rgba(6, 32, 179, 0.2);
+  border: 1px solid #051a8f;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.post-page pre.wp-block-verse.is-style-yellow {
+  background: rgba(254, 218, 61, 0.2);
+  border: 1px solid #fb8b01;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.post-page pre.wp-block-verse.is-style-green {
+  background: rgba(69, 209, 157, 0.2);
+  border: 1px solid #45d19d;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
