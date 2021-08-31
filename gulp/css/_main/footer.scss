@@ -1,0 +1,55 @@
+// * Footer
+
+/*
+  ? Bootstrap Media Example
+  @include media-breakpoint-up(md) | media-breakpoint-down(md) | media-breakpoint-between(sm, md)
+*/
+
+html.desktop footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+  // min-height: calc(var(--vh100, 100vh) - var(--menu-h));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  overflow: hidden;
+  > div {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+  }
+  .brand {
+    font-size: 50px;
+    line-height: 0.77;
+    font-family: "DM Serif Text", serif;
+    color: $secondary;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 2rem;
+    pointer-events: none;
+    @media (max-width: 359px) {
+      font-size: 44px;
+    }
+  }
+  .f-h-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: $primary;
+    display: block;
+    margin-bottom: 0.5rem;
+    pointer-events: none;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  div > ul > li {
+    margin-bottom: 0.5rem;
+  }
+}

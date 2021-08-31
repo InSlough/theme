@@ -1,0 +1,18 @@
+// https://fonts.google.com/specimen/DM+Serif+Text
+// https://fonts.google.com/specimen/Montserrat?query=Montserrat
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+OR
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Montserrat:wght@400;600&display=swap');
+
+
+CSS:
+// 'DM Serif Text' - regular (400)
+// 'Montserrat' - regular (400), semi-bold (600)
+font-family: 'DM Serif Text', serif;
+font-family: 'Montserrat', sans-serif;

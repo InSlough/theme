@@ -1,0 +1,52 @@
+// * Content
+
+/*
+  ? Bootstrap Media Example
+  @include media-breakpoint-up(md) | media-breakpoint-down(md) | media-breakpoint-between(sm, md)
+*/
+
+#main-content {
+  position: relative;
+  z-index: 1;
+  min-height: var(--vh100, 100vh);
+
+  > div > section:first-of-type {
+    padding-top: var(--menu-h);
+    transition: padding 200ms;
+  }
+}
+
+.viewport {
+  overflow-x: hidden;
+}
+.scroll-container {
+  background-color: $bgc;
+}
+html.desktop {
+  & .viewport {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: var(--vh100, 100vh);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  & .scroll-container {
+    position: absolute;
+    overflow: hidden;
+    z-index: 10;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    width: 100%;
+  }
+}
+
+.page > section {
+  padding-top: 5rem;
+}
+
+
